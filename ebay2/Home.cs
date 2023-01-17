@@ -21,7 +21,7 @@ namespace ebay2
 
 			web1.Navigate().GoToUrl("http://www.ebay.com");
 			web1.Manage().Window.Maximize();
-			home =new SearchBar(web1);
+			home =new SearchBar();
 			
 
 		}

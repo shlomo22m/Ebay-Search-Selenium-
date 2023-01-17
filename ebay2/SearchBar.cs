@@ -19,11 +19,9 @@ namespace ebay2
 		public Fillter fillter=new Fillter();
 
 
-		public  SearchBar(IWebDriver web1)
+		public  SearchBar()
 		{
 			
-			//web1.FindElement(By.Id("gh-ac")).SendKeys("mouse");
-			//web1.FindElement(By.Id("gh-btn")).Click();
 			
 		}
 		

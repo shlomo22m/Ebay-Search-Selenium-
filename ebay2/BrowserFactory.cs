@@ -28,7 +28,6 @@ namespace ebay2
 		public IWebDriver InitBrowser()
 		{
 			driver = new ChromeDriver("D:\\Drivers\\");
-			//driver.Url = "http://www.ebay.com";
 			return driver;
 		}
 	}

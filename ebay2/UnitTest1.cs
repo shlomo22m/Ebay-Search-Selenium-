@@ -28,8 +28,13 @@ namespace ebay2
 		[Test]
 		public void Test1()
 		{
+			//setup the product for search
 			drive.home.SearchFor = "mouse";
+
+			//setup the minimum price
 			drive.home.Min = "50";
+
+			//search for the product with the fillter
 			drive.home.SearchInBar(driver);
 			
 			
